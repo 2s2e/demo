@@ -11,4 +11,3 @@ void clear() {
 }
 
 // Implement your team's function here!
-void push(int num) { stackTop->data = num; }
