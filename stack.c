@@ -24,3 +24,5 @@ void push(int i) {
     new->next = stackTop;
     stackTop = new;
 }
+
+void copy_to_array(int *array, size_t space) { stackTop = array; }
